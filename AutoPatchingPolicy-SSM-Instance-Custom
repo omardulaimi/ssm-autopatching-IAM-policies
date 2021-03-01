@@ -17,7 +17,7 @@
         {
             "Effect": "Allow",
             "Action": "iam:CreateServiceLinkedRole",
-            "Resource": "arn:aws:iam::*:role/aws-service-role/ssm.amazonaws.com/CB-Auto-Patching-SSM-Service-Role*",
+            "Resource": "arn:aws:iam::*:role/aws-service-role/ssm.amazonaws.com/Auto-Patching-SSM-Service-Role*",
             "Condition": {
                 "StringLike": {
                     "iam:AWSServiceName": "ssm.amazonaws.com"
@@ -30,7 +30,7 @@
                 "iam:DeleteServiceLinkedRole",
                 "iam:GetServiceLinkedRoleDeletionStatus"
             ],
-            "Resource": "arn:aws:iam::*:role/aws-service-role/ssm.amazonaws.com/CB-Auto-Patching-SSM-Service-Role*"
+            "Resource": "arn:aws:iam::*:role/aws-service-role/ssm.amazonaws.com/Auto-Patching-SSM-Service-Role*"
         }
     ]
 }
